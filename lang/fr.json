@@ -1,0 +1,22 @@
+{
+  "carbonsquad.AbilityStr": "Strength",
+  "carbonsquad.AbilityCon": "Constitution",
+  "carbonsquad.AbilityDex": "Dexterity",
+  "carbonsquad.AbilityInt": "Intelligence",
+  "carbonsquad.AbilityWis": "Wisdom",
+  "carbonsquad.AbilityCha": "Charisma",
+
+  "carbonsquad.AbilityStrAbbr": "str",
+  "carbonsquad.AbilityConAbbr": "con",
+  "carbonsquad.AbilityDexAbbr": "dex",
+  "carbonsquad.AbilityIntAbbr": "int",
+  "carbonsquad.AbilityWisAbbr": "wis",
+  "carbonsquad.AbilityChaAbbr": "cha",
+
+  "carbonsquad.EffectCreate": "Create Effect",
+  "carbonsquad.EffectToggle": "Toggle Effect",
+  "carbonsquad.EffectEdit": "Edit Effect",
+  "carbonsquad.EffectDelete": "Delete Effect",
+
+  "carbonsquad.Add": "Add"
+}

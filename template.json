@@ -1,0 +1,67 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 50,
+          "min": 0,
+          "max": 50
+        },
+        "biography": ""
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "oxygen": {
+        "value": 50,
+        "min": 1,
+        "max": 50
+      },
+      "luck": {
+        "value": 11,
+        "min": 0,
+        "max": 22
+      },
+      "attributes": {
+        "vig": {
+          "value": 11
+        },
+        "agi": {
+          "value": 11
+        },
+        "int": {
+          "value": 11
+        },
+        "soc": {
+          "value": 11
+        }
+      }
+    },
+    "npc": {
+      "templates": ["base"],
+      "cr": 0
+    }
+  },
+  "Item": {
+    "types": ["item", "feature", "spell"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": ["base"]
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellLevel": 1
+    }
+  }
+}

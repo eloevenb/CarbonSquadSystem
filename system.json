@@ -1,0 +1,99 @@
+{
+  "id": "carbonsquad",
+  "title": "CarbonSquad",
+  "description": "The Carbon Squad system for Foundry VTT",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "11.308",
+    "maximum": 11
+  },
+  "authors": [{
+    "name": "eloevenb",
+    "mail": "eloevenb@student.42.fr"
+  }],
+  "esmodules": ["module/carbonsquad.mjs"],
+  "styles": ["css/carbonsquad.css"],
+  "scripts": [],
+  "packs": [
+    {
+      "name": "weapons",
+      "label": "Armes",
+      "system": "carbonsquad",
+      "path": "packs/weapons.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "weaponupgrades",
+      "label": "Améliorations d'armes",
+      "system": "carbonsquad",
+      "path": "packs/weapon-upgrades.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "armors",
+      "label": "Armures",
+      "system": "carbonsquad",
+      "path": "packs/armors.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "ammo",
+      "label": "Munitions",
+      "system": "carbonsquad",
+      "path": "packs/ammo.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "vehicles",
+      "label": "Véhicules",
+      "system": "carbonsquad",
+      "path": "packs/vehicles.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "vehicleupgrades",
+      "label": "Améliorations de véhicules",
+      "system": "carbonsquad",
+      "path": "packs/vehicle-upgrades.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "robots",
+      "label": "Robots",
+      "system": "carbonsquad",
+      "path": "packs/robots.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "drugs",
+      "label": "Drogues",
+      "system": "carbonsquad",
+      "path": "packs/drugs.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "miscellaneous",
+      "label": "Equipements divers",
+      "system": "carbonsquad",
+      "path": "packs/miscellaneous.db",
+      "type": "Item",
+      "private": false
+    }
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    }
+  ]
+}
